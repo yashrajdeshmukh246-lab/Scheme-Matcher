@@ -5,7 +5,7 @@
 // Find it with `ipconfig` (Windows) or `ifconfig` / `ip addr` (Mac/Linux).
 // If you're using an Android emulator, "http://10.0.2.2:5000" usually works instead.
 
-export const API_URL = "http://10.187.84.96";
+export const API_URL = "https://scheme-matcher-backend.onrender.com";
 
 export async function matchSchemes(profile) {
   const res = await fetch(`${API_URL}/api/match`, {
