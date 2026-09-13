@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Scheme Setu",
+    "slug": "scheme-setu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0b5e59"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.sih26092.schemesetu",
+      "adaptiveIcon": {
+        "backgroundColor": "#0b5e59"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
+  }
+}
